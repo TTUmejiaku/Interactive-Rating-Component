@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- rating section start-->
+      <main class="cards">
+        <header class="star-icon-container">
+          <i>
+            <img src="./images/icon-star.svg" alt="" class="star-icon" />
+          </i>
+        </header>
+        <!-- Rating state start -->
+        <section class="text">
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </section>
+
+        <ul class="rating-container">
+          <li><a href="#" class="rating">1</a></li>
+          <li><a href="#" class="rating">2</a></li>
+          <li><a href="#" class="rating">3</a></li>
+          <li><a href="#" class="rating">4</a></li>
+          <li><a href="#" class="rating">5</a></li>
+        </ul>
+        <button class="btn" type="submit">Submit</button>
+        <!-- Rating state end -->
+      </main>
+      <!-- rating section ends -->
+
+      <!-- Thank you state start -->
+      <section class="cards thank-you-container">
+        <div class="thank-you-icon">
+          <i><img src="./images/illustration-thank-you.svg" alt="" /></i>
+        </div>
+        <div class="rating-result"></div>
+        <div class="thank-you-text">
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+      </section>
+      <!-- Thank you state end -->
+    </div>
+
+    <!-- attribution -->
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">TTUmejiaku</a>.
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
