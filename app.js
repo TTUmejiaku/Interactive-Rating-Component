@@ -4,22 +4,15 @@ const ratings = document.querySelectorAll(".rating");
 const btn = document.querySelector(".btn");
 const ratingResult = document.querySelector(".rating-result");
 
-window.addEventListener("DOMContentLoaded", function () {
-  thankYouCard.classList.add("visibility");
-});
-
 ratings.forEach(function (rating) {
   rating.addEventListener("click", function (e) {
     let ratingValue = e.currentTarget.innerHTML;
     btn.addEventListener("click", function () {
-      ratingCard.classList.add("visibility");
+      ratingCard.classList.add("hide");
       const p = document.createElement("p");
-      const text = document.createTextNode(
-        `You selected ${ratingValue} out of 5`
-      );
-      p.appendChild(text);
+      p.textContent = `You selected ${ratingValue} out of 5`;
       ratingResult.appendChild(p);
-      thankYouCard.classList.remove("visibility");
+      thankYouCard.classList.remove("hide");
     });
   });
 });

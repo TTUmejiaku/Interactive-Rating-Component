@@ -30,7 +30,7 @@ global styles
 ===============
  */
 body {
-  background-color: var(--dark-blue);
+  background-color: var(--very-dark-blue);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@ global classes
 }
 
 .cards {
-  background-color: var(--very-dark-blue);
+  background-image: linear-gradient(var(--dark-blue), hsl(216, 12%, 9%));
   max-width: 335px;
   /* margin: 0, auto; */
   padding: 20px;
@@ -77,12 +77,6 @@ global classes
   margin-left: 10px;
   margin-right: 10px;
 }
-
-/* @media (min-width: 375px) {
-  .cards {
-    width: 335px;
-  }
-} */
 
 .star-icon-container i {
   display: inline-flex;
@@ -191,7 +185,7 @@ global classes
   margin-top: 10px;
 }
 
-.visibility {
+.hide {
   display: none;
 }
 
