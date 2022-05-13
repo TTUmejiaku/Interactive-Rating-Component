@@ -69,13 +69,13 @@ global classes
 }
 
 .cards {
-  background-image: linear-gradient(var(--dark-blue), hsl(216, 12%, 9%));
-  max-width: 335px;
+  /* background-image: linear-gradient(var(--dark-blue), hsl(216, 12%, 9%)); */
+  background: radial-gradient(circle at top, #313949 -50%, #171e28 50% 100%);
+  max-width: 345px;
   /* margin: 0, auto; */
   padding: 20px;
   border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height: 18rem;
 }
 
 .star-icon-container i {
@@ -137,7 +137,8 @@ global classes
 .rating:hover {
   background-color: var(--light-grey);
 }
-.rating:active {
+
+.active {
   color: var(--white);
   background-color: var(--pri-clr-orange);
 }
