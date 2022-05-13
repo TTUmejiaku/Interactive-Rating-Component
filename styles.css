@@ -40,18 +40,6 @@ body {
   font-size: var(--fs);
 }
 
-button {
-  width: 270px;
-  border-radius: 15px;
-  border: none;
-  background-color: var(--pri-clr-orange);
-  padding: 10px;
-  margin-left: 15px;
-  text-transform: uppercase;
-  color: var(--white);
-  cursor: pointer;
-}
-
 footer {
   margin-top: 10px;
 }
@@ -142,6 +130,19 @@ global classes
   color: var(--white);
   background-color: var(--pri-clr-orange);
 }
+
+.btn {
+  width: 270px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--pri-clr-orange);
+  padding: 10px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  color: var(--white);
+  cursor: pointer;
+}
+
 .btn:hover {
   color: var(--pri-clr-orange);
   background-color: var(--white);
